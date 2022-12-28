@@ -1,3 +1,7 @@
+.footer-main {
+    background-color: #18191a;
+}
+
 footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -21,7 +25,7 @@ footer {
     color: gray;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 12px;
+    font-size: calc(1vw + 3px);
 }
 
 
@@ -50,7 +54,7 @@ footer {
     text-align: center;
     background-color: #18191a;
     color: #fff;
-    font-size: 12px;
+    font-size: calc(1vw + 2px);
 }
 
 .footer img {
