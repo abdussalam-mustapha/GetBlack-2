@@ -12,8 +12,8 @@ import paymentIcon from "../../components/assets/images/payment.png";
 function Footer () {
   return (
     <>
-     <footer className="footer p-10 bg-[#18191a] text-base-content">
-        <div className="w-32 h-24 mb-10">
+     <footer className="footer">
+        <div className="">
           <img src={logo} alt="logo" className="logo" />
           {/* <img src={appStoreIcon} alt="" /> */}
           <img src={googlePlayIcon} alt="" className="playIcon" />
@@ -66,7 +66,7 @@ function Footer () {
         </div>
         <div>
           <span className="footer-title">Follow Us</span>
-          <div className="grid grid-flow-col gap-4">
+          <div className="socials">
             <a href="https://www.facebook.com/profile.php?id=100085968009084">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
