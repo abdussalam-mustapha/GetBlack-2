@@ -21,8 +21,9 @@ footer {
     color: gray;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
+
 
 .socials {
     margin-top: 15px;
@@ -49,6 +50,7 @@ footer {
     text-align: center;
     background-color: #18191a;
     color: #fff;
+    font-size: 14px;
 }
 
 .footer img {
