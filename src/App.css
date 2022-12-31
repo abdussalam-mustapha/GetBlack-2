@@ -92,7 +92,7 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
   background-color: #fff;
   width: 23%;
-  height: 510px;
+  height: 100%;
   padding: 15px 0;
   border-radius: 5px;
   margin-top: 5px;
@@ -264,7 +264,17 @@ button {
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
+  /* .d_flex {
+    justify-content: center !important;
+    align-items: center !important;
+  } */
+  .f_flex {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
   .slider {
     display: none;
   }
@@ -277,8 +287,29 @@ button {
   .navlink ul {
     flex-direction: column !important;
   }
+  .category {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100% !important;
+    margin: 50px;
+  }
+  .catg {
+    border: 1px solid rgb(230, 227, 227);
+  }
+  .catg img {
+    height: 100px;
+    width: 100px;
+  }
+  .homeSlide {
+    width: 0%;
+  }
+  .contentWidth {
+    width: 0%;
+  }
 }
 
-@media screen and (max-width: 800px) {
-  
+@media screen and (max-width: 568px) {
+  .category {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

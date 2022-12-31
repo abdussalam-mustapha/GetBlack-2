@@ -122,6 +122,9 @@ header ul li a:hover {
 }
 
 @media (max-width: 768px) {
+  .search {
+    display: none;
+  }
   header ul {
     padding-top: 30px;
   }
