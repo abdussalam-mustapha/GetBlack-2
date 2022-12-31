@@ -264,7 +264,7 @@ button {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .slider {
     display: none;
   }
@@ -277,4 +277,8 @@ button {
   .navlink ul {
     flex-direction: column !important;
   }
+}
+
+@media screen and (max-width: 800px) {
+  
 }
