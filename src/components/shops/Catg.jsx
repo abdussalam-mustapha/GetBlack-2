@@ -1,5 +1,6 @@
 import React from "react"
 
+
 const Catg = () => {
   const data = [
     {
@@ -27,6 +28,10 @@ const Catg = () => {
       cateName: "Sony",
     },
   ]
+
+  
+
+
   return (
     <>
       <div className='category'>
