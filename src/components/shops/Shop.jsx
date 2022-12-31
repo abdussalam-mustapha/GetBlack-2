@@ -1,6 +1,7 @@
 import React from "react"
 import Catg from "./Catg"
 import ShopCart from "./ShopCart"
+import Shops from "./Shops"
 import "./style.css"
 
 const Shop = ({ addToCart, shopItems }) => {

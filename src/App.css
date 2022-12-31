@@ -28,6 +28,21 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.navlink {
+  display: flex !important;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.navlink ul {
+  display: flex !important;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+
 .f_flex {
   display: flex;
 }
@@ -246,4 +261,20 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+  .dots {
+    display: none;
+  }
+  .navlink {
+    flex-direction: column;
+  }
+  .navlink ul {
+    flex-direction: column !important;
+  }
 }

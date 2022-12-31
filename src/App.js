@@ -7,6 +7,9 @@ import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Sdata from "./components/shops/Sdata"
 import GroupFooter from "./common/footer/GroupFooter"
+import Shops from "./components/shops/Shops"
+import ShopCat from "./components/shops/ShopCat"
+import Spage from "./components/shops/Spage"
 
 function App() {
   /*
@@ -77,6 +80,9 @@ function App() {
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+          </Route>
+          <Route path='/shops' exact>
+            <Spage />
           </Route>
         </Switch>
         <GroupFooter />
