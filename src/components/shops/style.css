@@ -71,21 +71,10 @@
   margin: 20px 0;
 }
 
-
-
-
-@media screen and (max-width: 768px) {
-  .grid1 {
-    grid-template-columns: 1fr;
-  }
-  .category {
-    display: none;
-  }
-}
-
 .cat-parent {
   display: flex;
   flex-direction: row !important;
+  flex-wrap: wrap;
 }
 
 .cat-img {
@@ -96,11 +85,17 @@
   width: 300px;
 }
 
-.parent-container,
+.parent-container {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  margin: 30px 10px 0;
+}
 .cat-container {
   display: flex;
-  width: 30%;
-  margin-top: 30px;
+  flex-wrap: wrap;
+  margin: 30px 10px 0;
+  width: 350px;
 }
 
 .shops-categories {
@@ -124,3 +119,11 @@
   margin: 10px 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+  .category {
+    display: none;
+  }
+}
