@@ -10,6 +10,7 @@ import GroupFooter from "./common/footer/GroupFooter"
 import Shops from "./components/shops/Shops"
 import ShopCat from "./components/shops/ShopCat"
 import Spage from "./components/shops/Spage"
+import AboutUs from "./common/about/AboutUs"
 
 function App() {
   /*
@@ -83,6 +84,9 @@ function App() {
           </Route>
           <Route path='/shops' exact>
             <Spage />
+          </Route>
+          <Route path='/about' exact>
+            <AboutUs />
           </Route>
         </Switch>
         <GroupFooter />

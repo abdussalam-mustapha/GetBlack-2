@@ -4,6 +4,8 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
+import sale from "../../images/sales.png"
+
 const SlideCard = () => {
   const settings = {
     dots: false,
@@ -23,6 +25,7 @@ const SlideCard = () => {
             <>
               <div className='box d_flex top slider' key={index}>
                 <div className='left'>
+                  <img src={sale} alt="sale-logo" />
                   <h1>{value.title}</h1>
                   <p>{value.desc}</p>
                   <button className='btn-primary'>Order now</button>
