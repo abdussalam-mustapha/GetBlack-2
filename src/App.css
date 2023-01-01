@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -16,7 +17,7 @@ body {
   padding: 50px 0;
 }
 .container {
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
 }
 .d_flex {
@@ -251,15 +252,21 @@ button {
 
 
 @media screen and (max-width: 768px) {
-  /* .d_flex {
+  .container {
+    /* display: flex !important;
+    flex-direction: row; */
+    width: 90%;
+  }
+  .d_flex {
     justify-content: center !important;
     align-items: center !important;
-  } */
+    flex-wrap: wrap !important;
+  }
   .f_flex {
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+    flex-direction: column;
+    /* width: 100%; */
   }
   .slider {
     display: none;
@@ -268,14 +275,16 @@ button {
     display: none;
   }
   .category {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100% !important;
-    position: relative;
-    margin: 50px;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .catg {
     border: 1px solid rgb(230, 227, 227);
+    width: 30%;
+    height: 150px;
   }
   .catg img {
     height: 100px;
@@ -291,7 +300,8 @@ button {
 
 @media screen and (max-width: 568px) {
   .category {
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* width: 520px; */
   }
   .catg img {
     width: 60px;
@@ -301,26 +311,16 @@ button {
 
 
 @media screen and (max-width: 368px) {
+  
   .home {
     width: 100%;
   }
   .category {
-    width: 100%;
+
     background: none;
     padding: 0 !important;
-    /* margin: 0 !important; */
   }
   .container {
     width: 100%;
-    margin: 0;
-    background: none;
   }
-  /* .catg {
-    width: 100%;
-    height: 100%;
-  }
-  .catg img {
-    width: 80%;
-    height: 80%;
-  } */
 }
