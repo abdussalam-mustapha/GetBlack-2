@@ -128,7 +128,20 @@ header ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  .search {
+  header {
+    margin: 0;
+    padding: 0;
+    height: 1vh;
+  }
+  .c_flex {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(235, 230, 230);
+  }
+  .search-box {
+    display: none;
+  }
+  .icon {
     display: none;
   }
   header ul {
