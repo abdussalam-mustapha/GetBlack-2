@@ -11,6 +11,14 @@ import Shops from "./components/shops/Shops"
 import ShopCat from "./components/shops/ShopCat"
 import Spage from "./components/shops/Spage"
 import AboutUs from "./common/about/AboutUs"
+import Vendors from "./common/vendors/Vendors"
+import Privacy from "./common/privacy/Privacy"
+import Careers from "./common/careers/Careers"
+import Blog from "./common/blog/Blog"
+import Terms from "./common/terms/Terms"
+import Contact from "./common/contact/Contact"
+import HelpCenter from "./common/helpcenter/HelpCenter"
+import CareerRoles from "./common/careers/CareerRoles"
 
 function App() {
   /*
@@ -87,6 +95,30 @@ function App() {
           </Route>
           <Route path='/about' exact>
             <AboutUs />
+          </Route>
+          <Route path='/vendors-page' exact>
+            <Vendors />
+          </Route>
+          <Route path='/privacy' exact>
+            <Privacy />
+          </Route>
+          <Route path='/careers' exact>
+            <Careers />
+          </Route>
+          <Route path='/blog' exact>
+            <Blog />
+          </Route>
+          <Route path='/terms' exact>
+            <Terms />
+          </Route>
+          <Route path='/contact' exact>
+            <Contact />
+          </Route>
+          <Route path='/help-center' exact>
+            <HelpCenter />
+          </Route>
+          <Route path='/career-roles' exact>
+            <CareerRoles />
           </Route>
         </Switch>
         <GroupFooter />
