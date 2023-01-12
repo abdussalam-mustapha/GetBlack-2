@@ -321,6 +321,40 @@ button {
   margin: 0 0 5rem 0;
 }
 
+.v_flex .v_btn {
+  background-color: #FFD700;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 100px;
+}
+
+.v_flex {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: calc(2rem + 1vh) 0;
+}
+
+.vp_btn-main {
+  width: 300px !important;
+}
+
+
+.vp_flex {
+  padding-bottom: 50px;
+}
+
+.vp_btn {
+  display: flex;
+  width: 300px !important;
+  color: #fff;
+}
+
+.v_flex h1 {
+  font-size: calc(3rem + 1vh);
+}
+
 @media screen and (max-width: 1000px) {
   .about-card {
     width: 300px;
