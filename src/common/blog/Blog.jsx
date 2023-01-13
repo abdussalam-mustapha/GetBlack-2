@@ -3,8 +3,8 @@ import React from "react";
 function Blog() {
  return (
    <div className="container mx-auto relative z-10">
-    <div className="grid place-items-center gap-2 mx-4">
-    <header className="text-center flex flex-col justify-center items-center">
+    <div className="blog_main">
+    <header className="blog_header">
         <h1 className="my-4 font-extrabold text-4xl">
             GetBlack Blog
         </h1>

@@ -355,6 +355,103 @@ button {
   font-size: calc(3rem + 1vh);
 }
 
+.p_main {
+  height: 100%;
+}
+
+.p_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10% 15%;
+}
+
+.h_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 50px 0;
+}
+
+/* .hp_main {
+  display: flex;
+  justify-content: center;
+} */
+
+.h_card {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px rgb(211, 211, 211);
+  margin: 20px 50px;
+  border-radius: 5px;
+}
+
+.h_card h3 {
+  margin-bottom: 20px;
+}
+
+.help_header {
+  line-height: 3;
+  text-align: center;
+  height: 100%;
+  box-shadow: none;
+  color: #fff;
+  background-color: orange;
+}
+
+.t_header {
+  height: 100%;
+}
+
+.t_header h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.t_card_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.t_card h2 {
+  margin: 20px 0;
+}
+
+.t_card {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 1px 2px rgb(216, 214, 214);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.t_header-main {
+  background-color: orange;
+  color: #fff;
+}
+
+.blog_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   .about-card {
     width: 300px;

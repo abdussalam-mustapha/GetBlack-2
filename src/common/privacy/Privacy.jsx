@@ -2,9 +2,9 @@ import React from 'react'
 
 const Privacy = () => {
   return (
-    <div className="container mx-auto relative z-10">
-      <div className="grid place-items-center gap-2 mx-4">
-      <header className="text-center flex flex-col justify-center items-center">
+    <div className="p_main">
+      <div className="">
+      <header className="p_flex">
         <h1 className="my-4 font-extrabold text-4xl">
           Our Privacy Policy
         </h1>
@@ -13,8 +13,6 @@ const Privacy = () => {
         </p>
         <p className="text-md">
         We are committed to protecting your personal information and your right to privacy. 
-        </p>
-        <p className="text-md">
         If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at hello@getblack.ca
         </p>
         <h1 className="my-4 font-extrabold text-4xl">
